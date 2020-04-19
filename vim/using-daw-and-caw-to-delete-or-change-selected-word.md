@@ -1,4 +1,4 @@
-# daw-caw
+# Using DAW And CAW To Delete Or Change Selected Word 
 
 Use `daw` to delete word under cursor. Think of it as `delete a word`
 
