@@ -6,7 +6,7 @@ touch README.md
 echo $'# TIL \n' >> README.md
 
 for d in */ ; do
-  echo "[${d%/}](./$d)" $'\n' >> README.md 
+  echo "[/${d%/}](./$d)" $'\n' >> README.md 
 done
 
 echo "generated from [make.sh](./make.sh)" >> README.md
